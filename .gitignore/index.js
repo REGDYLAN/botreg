@@ -58,4 +58,4 @@ clientDiscord.on("guildMemberAdd", member => {
 
 /* Connexion - BOT REGDYLAN */
 
-clientDiscord.login("NDQ2NzU3NzM1NjIzNjg4MTkz.Dd91uQ.W2vFXtDMjiil8hC-Tg5YBT1i65A");
+clientDiscord.login(process.ENV.token);
